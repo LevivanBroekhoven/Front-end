@@ -1,0 +1,37 @@
+const prompt = require('prompt-sync')();
+const alert = console.log;
+
+
+
+const TXT = "Sorry dat is geen optie die we aanbieden...";
+const MAX_BOLLETJES_BAKJE = 8;
+const MIN_BOLLETJES = 1;
+const MAX_BOLLETJES_HOORNTJE = 3;
+
+const PRIJSBOLLETJE = 0.95;
+const PRIJSBAKJE = 0.75;
+const PRIJSHOORNTJE = 1.25;
+
+const PRIJSSLAGROOM = 0.50;
+const PRIJSSPRINKELS = 0.30;
+const PRIJSCARAMELBAKJE = 0.90;
+const PRIJSCARAMELHOORNTJE = 0.60;
+
+const LITERIJS = 9.80;
+const BTW = 6;
+
+module.exports = {
+  TXT,
+  MAX_BOLLETJES_BAKJE,
+  MIN_BOLLETJES,
+  MAX_BOLLETJES_HOORNTJE,
+  PRIJSBOLLETJE,
+  PRIJSBAKJE,
+  PRIJSHOORNTJE,
+  PRIJSSLAGROOM,
+  PRIJSSPRINKELS,
+  PRIJSCARAMELBAKJE,
+  PRIJSCARAMELHOORNTJE,
+  LITERIJS,
+  BTW
+};
